@@ -53,7 +53,12 @@ export default function Footer() {
               </li>
               <li className="flex items-center gap-3">
                 <Phone className="size-5 shrink-0 text-brand-red" />
-                <span>(14) 99723-0206</span>
+                <a
+                  href="tel:+5514997230206"
+                  className="hover:text-white transition-colors hover:underline underline-offset-4 cursor-pointer text-slate-200"
+                >
+                  (14) 99723-0206
+                </a>
               </li>
               <li className="flex items-center gap-3">
                 <MessageCircle className="size-5 shrink-0 text-brand-red" />
@@ -61,18 +66,20 @@ export default function Footer() {
                   href="https://wa.me/5514997230206"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="hover:text-white transition-colors underline underline-offset-4 font-semibold text-slate-200"
+                  className="hover:text-white transition-colors hover:underline underline-offset-4 font-semibold text-slate-200 cursor-pointer"
                 >
                   WhatsApp: (14) 99723-0206
                 </a>
               </li>
               <li className="flex items-center gap-3">
-                <Phone className="size-5 shrink-0 text-brand-red" />
+                <MessageCircle className="size-5 shrink-0 text-brand-red" />
                 <a
-                  href="tel:+5514997743997"
-                  className="hover:text-white transition-colors underline underline-offset-4 font-semibold text-slate-200"
+                  href="https://wa.me/5514997743997"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="hover:text-white transition-colors hover:underline underline-offset-4 font-semibold text-slate-200 cursor-pointer"
                 >
-                  Telefone 2: (14) 99774-3997
+                  WhatsApp 2: (14) 99774-3997
                 </a>
               </li>
               <li className="flex items-center gap-3">
@@ -111,7 +118,7 @@ export default function Footer() {
         {/* Bottom bar */}
         <div className="border-t border-white/10 pt-8 flex flex-col md:flex-row items-center justify-between gap-4 text-xs text-slate-500">
           <div className="flex flex-col md:flex-row items-center gap-2 md:gap-6 text-center md:text-left">
-            <span>CNPJ: [CNPJ]</span>
+            <span>CNPJ: 00.859.804/0001-40</span>
             <span className="hidden md:inline text-slate-800">|</span>
             <span>SUSEP: [SUSEP]</span>
             <span className="hidden md:inline text-slate-800">|</span>
