@@ -3,7 +3,7 @@
 import { useState } from "react"
 import { useForm, Controller } from "react-hook-form"
 import { zodResolver } from "@hookform/resolvers/zod"
-import { MessageCircle, Mail, MapPin, Send, Loader2 } from "lucide-react"
+import { MessageCircle, Mail, MapPin, Send, Loader2, Phone } from "lucide-react"
 import { toast } from "sonner"
 
 import { contatoSchema, type ContatoInput } from "@/lib/validations"
@@ -77,6 +77,23 @@ export default function Contato() {
 
             {/* Contact list info */}
             <div className="flex flex-col gap-6">
+              <div className="flex items-start gap-4">
+                <div className="flex items-center justify-center size-11 rounded-full bg-[#FEE2E2] text-brand-red shrink-0 shadow-sm">
+                  <Phone className="size-5 shrink-0" />
+                </div>
+                <div>
+                  <span className="block text-xs font-bold uppercase tracking-wider text-slate-400">
+                    TELEFONE
+                  </span>
+                  <a
+                    href="tel:+5514997230206"
+                    className="text-brand-navy hover:text-brand-red hover:underline font-extrabold transition-colors mt-0.5 inline-block text-base"
+                  >
+                    (14) 99723-0206
+                  </a>
+                </div>
+              </div>
+
               <div className="flex items-start gap-4">
                 <div className="flex items-center justify-center size-11 rounded-full bg-[#FEE2E2] text-brand-red shrink-0 shadow-sm">
                   <MessageCircle className="size-5 shrink-0" />
