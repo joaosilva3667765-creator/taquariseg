@@ -22,13 +22,7 @@ export const metadata: Metadata = {
     locale: "pt-BR",
     type: "website",
   },
-  icons: {
-    icon: [
-      { url: "/logo.png", type: "image/png" },
-    ],
-    shortcut: "/logo.png",
-    apple: "/logo.png",
-  },
+
   other: {
     "msapplication-TileImage": "/logo.png",
   },
