@@ -23,9 +23,14 @@ export const metadata: Metadata = {
     type: "website",
   },
   icons: {
-    icon: "/logo.png",
+    icon: [
+      { url: "/logo.png", type: "image/png" },
+    ],
     shortcut: "/logo.png",
     apple: "/logo.png",
+  },
+  other: {
+    "msapplication-TileImage": "/logo.png",
   },
 };
 

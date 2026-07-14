@@ -48,7 +48,7 @@ export default function Footer() {
               <li className="flex items-start gap-3">
                 <MapPin className="size-5 shrink-0 text-brand-red mt-0.5" />
                 <span className="leading-relaxed">
-                  R. Dr. Ataliba Leonel, 152 - Centro, Taquarituba - SP, 18740-000
+                  R. Dr. Ataliba Leonel, 152 - Centro, Taquarituba - SP, 18740-019
                 </span>
               </li>
               <li className="flex items-center gap-3">
